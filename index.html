@@ -1,34 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.cdnfonts.com/css/euclid-circular-a" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Website Tailwind css</title>
 </head>
 <body>
-    <!------- NAVBAR---------->
-   <nav class="relative container mx-auto p-6">
+
+<section>
+ <!------- NAVBAR---------->
+ <nav class="mx-auto sticky top-0 h-35 shadow-xl">
+    <header class=" p-6">
+        <div class="container mx-auto">
     <!------Flex container---->
     <div class="flex items-center justify-between">
-        <!--logo-->
-        <div class="pt-2">
-            <img src="images/Jimdo_Logo_2021.svg.png">
+        
+    <!--logo-->
+    <div class="logo" class="">
+        <img class="w-3/12" src="images/Jimdo_Logo_2021.svg.png">
+    </div>
+
+
+
+
+    <!---------dropdown---------->
+    <div class="flex justify-center items-center h-screen">
+        <div class="relative"> 
+            <div class="cursor-pointer flex justify-between w-[200px]">OPTIONS <img src="">
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------menu items--------->
+    <div class="hidden md:flex space-x-3">
+        <a href="#">Website</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>    
+        <a href="#">Online-Store</a>   
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        <a href="#">Business-Tools</a>     
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
         </div>
 
-        <!-------menu items--------->
-        <div class="hidden md:flex space-x-6">
-            <a href="#">Website</a>
-            <a href="#">Online-Store</a>
-            <a href="#">Business-Tools</a>
-            <a href="#">Knowledge Guide</a>
-            <a href="#">Help</a>
-            <a href="#">Log In</a>
+        <div class="space-x-3 hidden md:flex items-center">
+            <a href="#">Knowledge Guide</a> 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>           
+            <a href="#">Help</a>      
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>   
+            <a href="#">Log In</a>   
+            </div>
+
         </div>
     </div>
-   </nav>
-</body>
-</html>
+ 
+    </header>
+    </nav>
+</section>
+
+
+
+        <section class=" items-center justify-center w-screen h-screen">
+            <div class="container mx-auto h-full flex items-center xl:justify-start">
+                <div class="w-[800px] flex flex-col items-center text-center xl:text-left xl:items-start">
+                    <h1 class="text-5xl mb-60">Create an Online Portfolio <br> With Jimdo</h1>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+
+            </div>
+
+
+
+
+
+        </section>
+<section>
+    <p>sass</p>
+</section>
+</nav>
+    </body>
+</html> 
