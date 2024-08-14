@@ -11,7 +11,9 @@ module.exports = {
     extend: {},
       colors:{},
 
-      fontFamily:{},
+      fontFamily:{
+        sans: ["Euclid Circular"]
+      },
     }
   }
   plugins: []
