@@ -1,0 +1,675 @@
+<section>
+ <!------- NAVBAR---------->
+ <nav class=" mx-auto sticky top-0 h-35 shadow-xl bg-no-repeat text-black">
+    <header class="container mx-auto px-4 py-6 flex items-center justify-between">
+    
+    <!--logo-->
+    <div class="logo" class="">
+        <img class="w-24" src="images/Jimdo_Logo_2021.svg.png">
+    </div>
+<!---------menu and dropdowns------->
+    <nav>
+        <ul class="flex items-center justify-center font-semibold">
+          <li class="relative group px-3 py-2">
+            <button class="hover:opacity-50 cursor-default text-blue-900">Website</button>
+            <div
+              class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div
+                  class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm">
+                </div>
+  
+                <div class="relative z-10">
+                  <div class="grid grid-cols-3 gap-6">
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">OUR WEBSITE BUILDER</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Create a website
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Pricing and Plans
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Website examples
+                          </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Your Own Domain
+                            </a>
+                          </li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">USEFUL TOOLS FOR YOUR WEBSITE</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Warning-proof legal texts
+                            <p class="text-gray-500 font-normal">For privacy policy & Co</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Industry entries
+                            <p class="text-gray-500 font-normal">For Google, Facebook & Co.</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Online booking
+                            <p class="text-gray-500 font-normal">Directly via your website</p>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                               Social media Integration
+                              <p class="text-gray-500 font-normal">Promote on Facebook & Instagram</p>
+                            </a>
+                          </li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                        <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">FOR YOUR INDUSTRY</p>
+                        <ul class="mt-3 text-[15px]">
+                          <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Online Portfolio
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Restaurant websites
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Coaches
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Musicians & Bands
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Real estate agents
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Doctors & practices
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          
+          <li class="relative group px-3 py-2">
+            <button class="hover:opacity-50 cursor-default text-blue-900">Online Store</button>
+            <div
+              class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div
+                  class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm">
+                </div>
+  
+                <div class="relative z-10">
+                  <div class="grid grid-cols-2 gap-6">
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">For online store Builder</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Create an online store
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Pricing and plans
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Online store examples
+                          </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Your own domain
+                            </a>
+                          </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">USEFUL TOOLS FOR YOUR STORE</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Warning-proof legal texts
+                            <p class="text-gray-500 font-normal">For general terms and conditions, privacy policy & Co</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Industry entries
+                            <p class="text-gray-500 font-normal">For Google, Facebook & Co</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Social media integration
+                            <p class="text-gray-500 font-normal">Sell on Facebook & Instagram</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="relative group px-3 py-2">
+            <button class="hover:opacity-50 cursor-default text-blue-900">Business-Tools</button>
+            <div
+              class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div
+                  class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm">
+                </div>
+  
+                <div class="relative z-10">
+                  <div class="grid grid-cols-2 gap-6">
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">A LOGO FOR YOUR BUSINESS</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Logo Generator
+                            <p class="text-gray-500 font-normal">Create your own free logo</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Logo examples
+                            <p class="text-gray-500 font-normal">Get inspired</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">MORE USEFUL TOOLS</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Industry entries
+                            <p class="text-gray-500 font-normal">For Google, Facebook & Co</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Warning-proof legal texts
+                            <p class="text-gray-500 font-normal">For privacy policy & Co</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Social media integration
+                            <p class="text-gray-500 font-normal">Sell on Facebook & Instagram</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="flex items-center justify-center font-semibold">
+          <li class="relative group px-3 py-2 grid grid-cols-1">
+            <button class="hover:opacity-50 cursor-default text-blue-900">Knowledge Guide</button>
+            <div
+              class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div
+                  class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm">
+                </div>
+  
+                <div class="relative z-10">
+                  <div class="grid grid-cols-1 gap-6c">
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">EXPERTISE, TIPS AND INSPIRATION</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            All Topics
+                            <p class="text-gray-500 font-normal">Knowledge guide overview</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Website Tips
+                            <p class="text-gray-500 font-normal">Get the most out of your website</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Business Knowledge
+                            <p class="text-gray-500 font-normal">Everything about your self-employment</p>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Succes stories
+                              <p class="text-gray-500 font-normal">Inspiring stories by real Jimdo customers</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                              Jimdo Updates
+                              <p class="text-gray-500 font-normal">What's new at Jimdo?</p>
+                            </a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relative group px-3 py-2">
+            <button class="hover:opacity-50 cursor-default text-blue-900">Help</button>
+            <div
+              class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full grid grid-cols-1">
+                <div
+                  class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm">
+                </div>
+  
+                <div class="relative z-10">
+                  <div class="grid grid-cols-2 gap-6">
+                    <div>
+                      <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">HOW CAN WE HELP YOU?</p>
+                      <ul class="mt-3 text-[15px]">
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Help center
+                            <p class="text-gray-500 font-normal">Find answers to your questions</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600">
+                            Contact Support
+                            <p class="text-gray-500 font-normal">Our support team is here for you</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relative group px-3 py-2">
+            <button class="hover:opacity-50 cursor-default ">Log in</button>
+          </li>
+        </ul>
+    </nav>
+
+    </div>
+</div>
+</header>
+</nav>
+</section>
+
+
+<!-------FIRST PAGE------------>
+       
+
+<section class=" items-center justify-center w-screen h-screen">
+            <div class="container mx-auto h-full flex items-center xl:justify-start">
+                <div class="w-[800px] flex flex-col items-center text-center xl:text-left xl:items-start mb-16">
+                    <h1 class="text-5xl">Create an Online Portfolio <br> With Jimdo</h1> <br> <br>
+
+                    <div class="flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 32 32">
+                      <path fill="blue" fill-rule="evenodd" d="M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z M13.2,19.7042328 L8.53333333,14.9901876 L6.66666667,16.8758057 L13.2,23.4754689 L25.3333333,11.2189514 L23.4666667,9.33333333 L13.2,19.7042328 Z">
+                      </path>
+                    </svg> 
+                    <p class="text-2xl">Perfect for artists and creatives</p>
+                    </div>
+
+                    <div class="flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 32 32">
+                        <path fill="blue" fill-rule="evenodd" d="M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z M13.2,19.7042328 L8.53333333,14.9901876 L6.66666667,16.8758057 L13.2,23.4754689 L25.3333333,11.2189514 L23.4666667,9.33333333 L13.2,19.7042328 Z">
+                        </path>
+                      </svg>
+                      <p class="text-2xl">Reach a larger audience</p>
+                      </div>
+
+                      <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 32 32">
+                          <path fill="blue" fill-rule="evenodd" d="M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z M13.2,19.7042328 L8.53333333,14.9901876 L6.66666667,16.8758057 L13.2,23.4754689 L25.3333333,11.2189514 L23.4666667,9.33333333 L13.2,19.7042328 Z">
+                          </path>
+                        </svg>
+                        <p class="text-2xl">Show off what you can do</p>
+                        </div>
+                    
+                        <br>
+                    
+                    <button class="hover:opacity-50 cursor-default bg-blue-700 text-white flex p-5 px-40 rounded">Start Now</button>
+                    <p class="text-center text-gray-500 p-2 text-sm">Start for free and upgrade anytime to one of our premium <br>plans</p>
+                 </div>
+                
+            
+             <div> 
+                <img class="relative max-w-[900px]" src="images/1ST.PNG">
+            </div>
+            </div>
+</section>
+
+
+<!---------SECOND PAGE----------->
+
+
+<div class="md:px-14 px-4 py-12 max-w-screen-2xl mx-auto">
+  <div class='text-center'> 
+    <h1 class="text-5xl">Portfolio site features that matter</h1>
+  </div>
+</div>
+
+<div class="px-50">
+
+<div class="px-[400px] py-20">
+  <div class="flex justify-end gap-10 items-center">
+  
+    <!--text-container---->
+  <div class="max-w-[610px]">
+    <h3 class="text-3xl font-normal mb-5">Beautiful visuals, by design</h3>
+    <p class="text-lg">Polished. Professional. Eye-catching. With Jimdo's design tools, your online portfolio makes the best impression. Choose colors and fonts, and even design your own logo. Then show off your work in high-impact slideshows.</p>
+  </div>
+  <!--img-container---->
+  <div class="min-w-[740px]"><img src="images/2nd.png"></div>
+</div>
+</div>
+
+
+
+
+<div class="px-[400px] py-14">
+  <div class="flex justify-end gap-10 items-center">
+     <!--img-container---->
+  <div class="min-w-[740px]"><img src="images/3rd.png"></div>
+  <!--text-container---->
+  <div class="max-w-[610px]">
+    <h3 class="text-3xl font-normal mb-5">Help search engines find you</h3>
+    <p class="text-lg">Want your portfolio website to find the right audience? Our automatic SEO tools and tips walk you through every step, even if you’re a beginner. Show up on Google and track traffic with Statistics, too.</p>
+  </div>
+</div>
+</div>
+
+
+<div class="px-[400px] py-16">
+  <div class="flex justify-end gap-10 items-center">
+  <!--text-container---->
+  <div class="max-w-[610px]">
+    <h3 class="text-3xl font-normal mb-5">Connect to social media in seconds</h3>
+    <p class="text-lg">Already using Instagram or Facebook? That makes it even easier to build your online portfolio. Pull in photos right from your existing accounts, so your website is ready in a snap.</p>
+  </div>
+   <!--img-container---->
+   <div class="min-w-[740px]"><img src="images/4th.png"></div>
+</div>
+</div>
+</div>
+
+
+<div class="px-64 py-16">
+  <div class="flex justify-evenly gap-10 items-center">
+  <!--text-container---->
+  <div class="max-w-[610px] space-y-12">
+    <h3 class="text-5xl mb-5 text-center">How to make an online portfolio</h3>
+    <p class="text-lg text-center">If you're a photographer, artist, designer, model, or creative, putting your work online is the best way to reach a larger audience. And you can do it in 4 easy steps.</p>
+
+    <div>
+      <h1 class="list-decimal">
+        <li>Sign up or log in with social media. You’ll also be able to choose a domain (website address) for your portfolio site.</li><br>
+        <li>Tell us a little about your work. Answer a few questions and our portfolio maker creates the website for you.</li><br>
+        <li>Add your images. Connect your social media accounts to pull in your images from around the web, or easily upload them.</li><br>
+        <li>Publish your site—and you’re online! Then follow our quick and easy tips to optimize your portfolio site even more!</li>
+        </h1>
+    </div>
+    <div class="flex justify-center">
+      <button class="hover:opacity-50 cursor-default bg-blue-700 text-white flex p-5 px-24 rounded">Start Now</button>
+    </div>
+  </div>
+
+   <!--img-container---->
+   <div class="py-7 p-16">
+    <div class="py-11">
+      <div class="max-w-[470px]"><img src="images/5th.png"></div>
+    </div>
+   </div>
+   
+</div>
+</div>
+
+
+<!---------THIRD PAGE------------->
+<div class="py-32">
+
+  <div class="md:px-14 px-4 py-20 max-w-screen-2xl mx-auto">
+  <div class='text-center'> 
+    <h1 class="text-5xl">What kind of portfolio website will you<br>create?</h1>
+  </div>
+</div>
+
+<div class="flex md:px-14 px-4 py-12 max-w-screen-2xl mx-auto">
+  <div class="min-w-[740px] "><img src="images/6TH.PNG">
+<p class="text-2xl font-medium mb-5">Graphic designer portfolio</p>
+<p class="mb-5 text-lg">Your graphic design online portfolio shows off your skills and work examples in one place, from different design programs to different mediums.</p>
+<p class="text-lg">Start Now</p>
+</div>
+
+  <div class="min-w-[740px] "><img src="images/7TH.PNG">
+  <p class="text-2xl font-medium mb-5">Photographer portfolio</p>
+  <p class="mb-5 text-lg">Building a photography portfolio means focusing on the work, not the website. Jimdo’s modern designs keep your images front and center. You can accept bookings, too!</p>
+  <p class="text-lg">Start Now</p>
+</div>
+</div>
+
+<div class="flex md:px-14 px-4 py-12 max-w-screen-2xl mx-auto">
+  <div class="min-w-[740px] "><img src="images/8th.png">
+<p class="text-2xl font-medium mb-5">Artist portfolio</p>
+<p class="mb-5 text-lg">Want to put your art online and sell it, too? Upload high-resolution images, post new work, and build your client base with a portfolio and online store all in one.</p>
+<p class="text-lg">Start Now</p>
+</div>
+
+  <div class="min-w-[740px] "><img src="images/9TH.PNG">
+  <p class="text-2xl font-medium mb-5">Model portfolio</p>
+  <p class="mb-5 text-lg">You’re versatile and stylish, and your portfolio can be too. A website is a platform that you control, and it’s easy to use images right from your social media accounts.</p>
+  <p class="text-lg">Start Now</p>
+</div>
+</div>
+</div>
+
+<!-----Fourth Page-------->
+<div class="md:px-14 px-4 py-20 max-w-screen-2xl mx-auto">
+  <div class='text-center'> 
+    <h1 class="text-5xl">Get portfolio design inspiration with these examples</h1><br><br>
+    <p class="mb-5 text-xl">Artists ♡ Jimdo! Spark your creativity with these website portfolio examples built with Jimdo.</p>
+  </div>
+</div>
+
+
+<!-----CAROUSEL------->
+
+<!-------FAQ---------->
+<DIV>
+  <div class="md:px-14 px-4 py-20 max-w-screen-2xl mx-auto">
+    <div class='text-center'> 
+      <h1 class="text-5xl">Online portfolio FAQ</h1>
+    </div>
+  </div>
+  
+ <!--text-container---->
+  <div class="px-[200px]  max-w-screen-2xl">
+    <div class="flex gap-10 items-center">
+    <div class="">
+      <h3 class="text-2xl font-medium">What are the benefits of having an online portfolio?</h3>
+      <h3 class="text-2xl font-medium">How do I make a good portfolio website?</h3>
+      <h3 class="text-2xl font-medium">What should I put in my online portfolio?</h3>
+      <h3 class="text-2xl font-medium">Why is an online portfolio important for a designer?</h3>
+      <h3 class="text-2xl font-mediium">How do I choose the right design for my portfolio website?</h3>
+    </div>
+  </div>
+  </div>
+</DIV>
+
+
+<!------SHOW OFF EME--------->
+
+<DIV class="py-36 text-center md:px-14 px-4 max-w-screen-2xl mx-auto">
+  <div class="px-4 max-w-screen-2xl mx-auto">
+    <div class='text-center'> 
+      <h1 class="text-5xl">Show off your hard work</h1><br>
+      <p class="mb-5 text-xl">A portfolio creator for every profession</p>
+    </div>
+  </div>
+
+<div class="flex px-4 py-10">
+  <div class="w-[500px]">
+    <p class="text-center font-medium text-2xl">Freelancer</p> <br>
+    <p class="text-center">Every freelancer needs a website to attract new customers, find work, and show off your skills. Build your own portfolio, with no coding required!</p> <br>
+  <p class="text-center text-lg">Freelance website how-to</p>
+  </div>
+
+  <div class="w-[500px]">
+    <p class="text-center font-medium text-2xl">Photography</p> <br>
+    <p class="text-center">Photographers love Jimdo for its beautiful and easy portfolio websites. See how you can get your photos online quickly and start taking bookings.</p> <br>
+  <p class="text-center text-lg">photography website how-to</p>
+  </div>
+
+  <div class="w-[500px]">
+    <p class="text-center font-medium text-2xl">Design</p> <br>
+    <p class="text-center">Create an art portfolio that matches your style. Our built-in tools will help you improve your search engine ranking and even sell your artwork online.</p> <br>
+  <p class="text-center text-lg">How to design a website</p>
+  </div>
+
+</div>
+</DIV>
+
+<!--------FOOOOOOOOOOOOOOTEWRRRRRRRRRRRRRRRRR---------->
+
+<div class="py-20">
+  <DIV class="flex md:px-14 px-4 max-w-screen-2xl mx-auto">
+    
+    <div class="">
+      <img class="w-24" src="images/Jimdo_Logo_2021.svg.png">
+
+<div class="flex py-5">
+  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24 0C10.745 0 0 10.81 0 24.147 0 36.199 8.776 46.189 20.25 48V31.127h-6.094v-6.98h6.094v-5.32c0-6.052 3.583-9.395 9.065-9.395 2.626 0 5.372.472 5.372.472v5.942h-3.026c-2.981 0-3.911 1.862-3.911 3.771v4.53h6.656l-1.064 6.98H27.75V48C39.224 46.189 48 36.199 48 24.147 48 10.81 37.255 0 24 0z" fill="currentColor" fill-rule="evenodd"></path></svg>
+
+  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="instagram_svg__a" d="M0 .015h47.8V47.81H0z"></path></defs><g fill="none" fill-rule="evenodd"><mask id="instagram_svg__b" fill="#fff"><use xlink:href="#instagram_svg__a"></use></mask><path d="M23.955 2.372c-5.862 0-6.597.025-8.899.13-2.297.104-3.866.47-5.239 1.003a10.568 10.568 0 00-3.823 2.49c-1.2 1.2-1.938 2.403-2.49 3.822-.533 1.373-.898 2.942-1.002 5.24-.105 2.301-.13 3.036-.13 8.898 0 5.861.025 6.596.13 8.898.104 2.298.47 3.867 1.003 5.24a10.573 10.573 0 002.49 3.822c1.2 1.2 2.403 1.938 3.822 2.49 1.373.533 2.942.898 5.24 1.003 2.301.105 3.036.13 8.898.13 5.861 0 6.596-.025 8.898-.13 2.298-.105 3.867-.47 5.24-1.003 1.419-.552 2.622-1.29 3.822-2.49 1.2-1.2 1.938-2.403 2.49-3.822.533-1.373.898-2.942 1.003-5.24.105-2.302.13-3.037.13-8.898 0-5.862-.025-6.597-.13-8.899-.105-2.297-.47-3.866-1.003-5.239-.552-1.42-1.29-2.623-2.49-3.823-1.2-1.2-2.403-1.938-3.822-2.49-1.373-.533-2.942-.898-5.24-1.002-2.302-.105-3.037-.13-8.898-.13zm0 3.889c5.763 0 6.445.022 8.721.125 2.105.096 3.247.448 4.008.744 1.007.391 1.726.859 2.482 1.614.755.755 1.223 1.474 1.614 2.482.296.76.647 1.903.743 4.007.104 2.276.126 2.959.126 8.722s-.022 6.445-.126 8.721c-.096 2.105-.447 3.247-.743 4.008-.391 1.007-.86 1.726-1.614 2.482-.756.755-1.475 1.223-2.482 1.614-.76.296-1.903.647-4.008.743-2.275.104-2.958.126-8.721.126-5.764 0-6.446-.022-8.722-.126-2.104-.096-3.247-.447-4.007-.743-1.008-.391-1.727-.86-2.482-1.614-.755-.756-1.223-1.475-1.614-2.482-.296-.76-.648-1.903-.744-4.008-.103-2.276-.125-2.958-.125-8.721s.022-6.446.125-8.722c.096-2.104.448-3.247.744-4.007.391-1.008.859-1.727 1.614-2.482.755-.755 1.474-1.223 2.482-1.614.76-.296 1.903-.648 4.007-.744 2.276-.103 2.959-.125 8.722-.125z" fill="currentColor" mask="url(#instagram_svg__b)"></path><path d="M23.9 31.882a7.967 7.967 0 110-15.934 7.967 7.967 0 010 15.934zm-12.273-7.967c0 6.778 5.495 12.273 12.273 12.273s12.273-5.495 12.273-12.273S30.678 11.642 23.9 11.642s-12.273 5.495-12.273 12.273zm27.899-12.758a2.868 2.868 0 11-5.736 0 2.868 2.868 0 015.736 0" fill="currentColor"></path></g></svg>
+
+  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M23.99 0C10.722 0 0 10.741 0 23.99c0 10.17 6.318 18.857 15.243 22.351-.217-1.895-.395-4.817.08-6.89.433-1.876 2.803-11.927 2.803-11.927s-.71-1.44-.71-3.554c0-3.337 1.934-5.824 4.343-5.824 2.053 0 3.04 1.54 3.04 3.376 0 2.053-1.302 5.134-1.994 7.997-.572 2.389 1.205 4.344 3.555 4.344 4.264 0 7.542-4.502 7.542-10.979 0-5.745-4.127-9.754-10.03-9.754-6.832 0-10.84 5.114-10.84 10.406 0 2.053.79 4.265 1.777 5.47a.714.714 0 01.158.69c-.178.75-.593 2.39-.672 2.725-.098.435-.355.533-.81.316-2.96-1.421-4.817-5.805-4.817-9.32 0-7.562 5.49-14.512 15.855-14.512 8.313 0 14.79 5.923 14.79 13.86 0 8.274-5.213 14.928-12.44 14.928-2.429 0-4.72-1.264-5.49-2.764l-1.5 5.706c-.533 2.093-1.994 4.7-2.981 6.299 2.25.69 4.62 1.066 7.108 1.066C37.259 48 48 37.259 48 24.01 47.98 10.74 37.239 0 23.99 0z" fill="currentColor" fill-rule="evenodd"></path></svg>
+  
+  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M23.76 0c13.122 0 23.76 10.638 23.76 23.76 0 13.122-10.638 23.76-23.76 23.76C10.638 47.52 0 36.882 0 23.76 0 10.638 10.638 0 23.76 0zm6.213 13.603a5.73 5.73 0 00-5.726 5.726c0 .451.048.89.155 1.307-4.764-.238-8.982-2.519-11.81-5.988a5.747 5.747 0 00-.771 2.875 5.703 5.703 0 002.554 4.764 5.627 5.627 0 01-2.59-.713v.071a5.735 5.735 0 004.598 5.62 5.71 5.71 0 01-1.51.202 5.47 5.47 0 01-1.08-.107 5.72 5.72 0 005.346 3.98 11.515 11.515 0 01-8.483 2.364 15.96 15.96 0 008.756 2.59c10.537 0 16.3-8.732 16.3-16.3 0-.25 0-.499-.013-.737a11.736 11.736 0 002.863-2.97c-1.021.452-2.126.76-3.29.903a5.725 5.725 0 002.518-3.172 11.6 11.6 0 01-3.635 1.39 5.7 5.7 0 00-4.182-1.805z" fill="currentColor"></path></svg>
+
+  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="youtube_svg__a" d="M0 0h47.91v33.537H0z"></path></defs><g transform="translate(0 7)" fill="none" fill-rule="evenodd"><mask id="youtube_svg__b" fill="#fff"><use xlink:href="#youtube_svg__a"></use></mask><path d="M19.164 23.955V9.582l12.447 7.186-12.447 7.187zM46.909 5.237A6.001 6.001 0 0042.673 1c-3.736-1-18.718-1-18.718-1S8.973 0 5.237 1A6 6 0 001 5.237C0 8.973 0 16.768 0 16.768S0 24.564 1.001 28.3a6 6 0 004.236 4.236c3.736 1 18.718 1 18.718 1s14.982 0 18.718-1a6.001 6.001 0 004.236-4.236c1-3.736 1-11.532 1-11.532s0-7.795-1-11.531z" fill="currentColor" mask="url(#youtube_svg__b)"></path></g></svg>
+</div>
+      
+    </div>
+    
+    <div class="px-28 flex">
+      <div class="px-14">
+        <p class="font-semibold text-gray-500 ">Products</p>
+        <p class="text-blue-900 font-medium">Website</p>
+        <p class="text-blue-900 font-medium">Online Store</p>
+        <p class="text-blue-900 font-medium">Domain</p>
+        <p class="text-blue-900 font-medium">Logo</p>
+      </div>
+      
+      <div class="px-14">
+        <p class="font-semibold text-gray-500">About Us</p>
+        <p class="text-blue-900 font-medium">About Jimdo</p>
+        <p class="text-blue-900 font-medium">Careers</p>
+        <p class="text-blue-900 font-medium">Affiliates</p>
+      </div>
+      
+      <div class="px-14">
+        <p class="font-semibold text-gray-500">Service</p>
+        <p class="text-blue-900 font-medium">Jimdo Blog</p>
+        <p class="text-blue-900 font-medium">Inspiration</p>
+        <p class="text-blue-900 font-medium">Help Center</p>
+        <p class="text-blue-900 font-medium">Contact Support</p>
+      </div>
+    </div>
+    </DIV>
+</div>
+
+
+<div class="flex px-4 max-w-screen-2xl mx-auto">
+  <div class="flex py-8">
+    <p class="px-5 text-blue-900 font-medium">Legal notice</p>
+    <p class="px-5 text-blue-900 font-medium">Terms of Service</p>
+    <p class="px-5 text-blue-900 font-medium">Privacy Policy</p>
+    <p class="px-5 font-medium">Cookie Settings</p>
+  </div>
+ 
+</div>
+
+
+</body>
+</html> 
