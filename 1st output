@@ -474,6 +474,7 @@
 </div>
 </div>
 
+<!-------------------------------------->
 
 <div class="px-64 py-16">
   <div class="flex justify-evenly gap-10 items-center">
@@ -496,11 +497,6 @@
   </div>
 
    <!--img-container---->
-   <div class="py-7 p-16">
-    <div class="py-11">
-      <div class="max-w-[470px]"><img src="images/5th.png"></div>
-    </div>
-   </div>
    
 </div>
 </div>

@@ -389,3 +389,206 @@
         
     </ul>
  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!---------------------->
+
+ <div class="col-span-6">
+  <div class=>
+  <div class= >
+      <h3 id="dropdownButton" class="font-medium cursor-pointer flex">
+          How do I make a good portfolio website?
+          
+          <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+            </svg>
+      </h3>
+           <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200">
+
+    <!-- Dropdown menu -->
+ <div id="dropdownMenu" class=" hidden bg-white">
+  <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton">
+    <h3 class="font-medium">bruh</h3>
+  </div>
+</div>
+
+
+<!---------------------->
+
+<h3 id="dropdownButton1" class="font-medium cursor-pointer flex">
+How do I make a good portfolio website?
+
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+  </svg>
+</h3>
+ <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu1" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton1">
+<h3 class="font-medium">bruh</h3>
+</div>
+</div>
+
+<!---------------------->
+
+<h3 id="dropdownButton2" class="font-medium cursor-pointer flex">
+How do I make a good portfolio website?
+
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+  </svg>
+</h3>
+ <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu2" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton2">
+<h3 class="font-medium">bruh</h3>
+</div>
+</div>
+
+<!---------------------->
+
+<h3 id="dropdownButton3" class="font-medium cursor-pointer flex">
+How do I make a good portfolio website?
+
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+  </svg>
+</h3>
+ <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu3" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton3">
+<h3 class="font-medium">bruh</h3>
+</div>
+</div>
+
+<!---------------------->
+
+<h3 id="dropdownButton4" class="font-medium cursor-pointer flex">
+How do I make a good portfolio website?
+
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+  </svg>
+</h3>
+ <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu4" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton4">
+<h3 class="font-medium">bruh</h3>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-----SCRIPTS NG DROPDOWNNNNNN----->
+<script>
+const dropdownButton = document.getElementById('dropdownButton');
+const dropdownMenu = document.getElementById('dropdownMenu');
+
+dropdownButton.addEventListener('click', () => {
+  dropdownMenu.classList.toggle('hidden');
+});
+
+window.addEventListener('click', (e) => {
+  if (!dropdownButton.contains(e.target)) {
+      dropdownMenu.classList.add('hidden');
+  }
+});
+
+/*---------------------*/
+
+const dropdownButton1 = document.getElementById('dropdownButton1');
+const dropdownMenu1 = document.getElementById('dropdownMenu1');
+
+dropdownButton1.addEventListener('click', () => {
+  dropdownMenu1.classList.toggle('hidden');
+});
+
+window.addEventListener('click', (e) => {
+  if (!dropdownButton1.contains(e.target)) {
+      dropdownMenu1.classList.add('hidden');
+  }
+});
+
+/*---------------------*/
+
+const dropdownButton2 = document.getElementById('dropdownButton2');
+const dropdownMenu2 = document.getElementById('dropdownMenu2');
+
+dropdownButton2.addEventListener('click', () => {
+  dropdownMenu2.classList.toggle('hidden');
+});
+
+window.addEventListener('click', (e) => {
+  if (!dropdownButton2.contains(e.target)) {
+      dropdownMenu2.classList.add('hidden');
+  }
+});
+
+/*---------------------*/
+
+const dropdownButton3 = document.getElementById('dropdownButton3');
+const dropdownMenu3 = document.getElementById('dropdownMenu3');
+
+dropdownButton3.addEventListener('click', () => {
+  dropdownMenu3.classList.toggle('hidden');
+});
+
+window.addEventListener('click', (e) => {
+  if (!dropdownButton3.contains(e.target)) {
+      dropdownMenu3.classList.add('hidden');
+  }
+});
+
+/*---------------------*/
+
+const dropdownButton4 = document.getElementById('dropdownButton4');
+const dropdownMenu4 = document.getElementById('dropdownMenu4');
+
+dropdownButton4.addEventListener('click', () => {
+  dropdownMenu4.classList.toggle('hidden');
+});
+
+window.addEventListener('click', (e) => {
+  if (!dropdownButton4.contains(e.target)) {
+      dropdownMenu4.classList.add('hidden');
+  }
+});
+</script>
+
+
