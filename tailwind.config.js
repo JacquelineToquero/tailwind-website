@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  plugins: [
+    require('flowbite/plugin')
+],
+  content: ['./*.html'], 
+  content: [
+    "./node_modules/flowbite/**/*.js"
+],
   theme: {
   screens:{
       cp: '320px',    
@@ -17,7 +23,8 @@ module.exports = {
         sans: ["Euclid Circular"]
       },
     }
+  
   }
-  plugins: []
+ 
 
 

@@ -592,3 +592,949 @@ window.addEventListener('click', (e) => {
 </script>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------MAAYOS UNG RESPONSIVE DITO HAHAHAH------------------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.cdnfonts.com/css/euclid-circular-a" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Website Tailwind css</title>
+</head>
+
+<body>
+<!-------FIRST PAGE--------->
+<main>
+  <div class="py-10">
+    <div class="grid grid-cols-1 gap-5 px-5 py-10 min-[576px]:px-10 min-[576px]:gap-10 min-[768px]:py-16 lg:grid-cols-2 lg:gap-20 lg:p-36">
+  
+      <div class="lg:col-span-1">
+        <h1 class="lg:text-5xl text-4xl">
+        Create an Online Portfolio With Jimdo</h1> 
+        
+        <div class="mt-6 space-y-4">
+          <div class="flex gap-3 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 32 32">
+              <path fill="blue" fill-rule="evenodd" d="M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z M13.2,19.7042328 L8.53333333,14.9901876 L6.66666667,16.8758057 L13.2,23.4754689 L25.3333333,11.2189514 L23.4666667,9.33333333 L13.2,19.7042328 Z">
+              </path>
+            </svg> 
+            <p class="lg:text-2xl">Perfect for artists and creatives</p>
+          </div>
+
+          <div class="flex gap-3 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 32 32">
+              <path fill="blue" fill-rule="evenodd" d="M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z M13.2,19.7042328 L8.53333333,14.9901876 L6.66666667,16.8758057 L13.2,23.4754689 L25.3333333,11.2189514 L23.4666667,9.33333333 L13.2,19.7042328 Z">
+              </path>
+            </svg> 
+            <p class="lg:text-2xl">Reach a larger audience</p>
+          </div>
+
+          <div class="flex gap-3 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 32 32">
+              <path fill="blue" fill-rule="evenodd" d="M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z M13.2,19.7042328 L8.53333333,14.9901876 L6.66666667,16.8758057 L13.2,23.4754689 L25.3333333,11.2189514 L23.4666667,9.33333333 L13.2,19.7042328 Z">
+              </path>
+            </svg> 
+            <p class="lg:text-2xl">Show off what you can do</p>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <button class="hover:opacity-50 cursor-default bg-blue-700 text-white p-2 px-24 text-sm rounded">Start Now</button>
+          <p class="text-gray-500 p-2 text-sm md:text-left">Start for free and upgrade anytime to one of our premium plans</p>
+        </div>
+      </div>
+
+      <div class="lg:col-span-1 flex justify-center items-center">
+        <img class="max-w-full h-auto" src="images/1ST.PNG">
+      </div>
+      
+    </div>
+  </div>
+</main>
+
+
+<!----------SECOND PAGE------------->
+
+
+<main>
+  <div class="py-10">
+    <!-- Centering the main heading -->
+    <div class="flex justify-center">
+      <div class="text-3xl text-center py-5">
+        <h1 class="lg:text-5xl">Portfolio site features that matter</h1> 
+      </div>
+    </div>
+
+    <!-- First content block -->
+<div class="lg:flex lg:flex-row-reverse py-10 items-center px-5">
+  <div class="lg:py-5 lg:flex lg:flex-col lg:items-end">
+    <!-- Image Container -->
+    <img src="images/2nd.png" class="max-w-full h-auto">
+  </div>
+  <!-- Text Container -->
+  <div class="max-w-2xl">
+    <h3 class="text-lg py-5 lg:text-3xl text-center sm:text-left md:text-center lg:text-left">Beautiful visuals, by design</h3>
+    <br>
+    <p class="text-center sm:text-left md:text-center lg:text-left">Polished. Professional. Eye-catching. With Jimdo's design tools, your online portfolio makes the best impression. Choose colors and fonts, and even design your own logo. Then show off your work in high-impact slideshows.</p>
+  </div>
+</div>
+
+    
+    
+
+    <!-- Second content block -->
+    <div class="lg:flex py-10 items-center px-5">
+      <div class="py-5">
+        <!-- Image Container -->
+        <img src="images/3rd.png" class="max-w-full h-auto">
+      </div>
+      <!-- Text Container -->
+      <div class="text-center sm:text-left md:text-center lg:text-left max-w-2xl">
+        <h3 class="text-lg lg:text-3xl font-medium">Help search engines find you</h3>
+        <br>
+        <p>Want your portfolio website to find the right audience? Our automatic SEO tools and tips walk you through every step, even if you’re a beginner. Show up on Google and track traffic with Statistics, too.</p>
+      </div>
+    </div>
+    
+
+    <!-- Third content block -->
+    <div class="flex lg:flex-row-reverse flex-col items-center py-10 px-5">
+      <div class="py-5">
+        <!-- Image Container -->
+        <img src="images/4th.png" class="max-w-full h-auto">
+      </div>
+      <!-- Text Container -->
+      <div class="text-center sm:text-left md:text-center lg:text-left max-w-2xl">
+        <h3 class="text-lg lg:text-3xl font-medium">Connect to social media in seconds</h3>
+        <br>
+        <p>Already using Instagram or Facebook? That makes it even easier to build your online portfolio. Pull in photos right from your existing accounts, so your website is ready in a snap.</p>
+      </div>
+    </div>
+    
+  </div>
+</main>
+
+
+
+<!-----------THIRD PAGE--------------->
+
+<main>
+  <div class="py-10">
+    <div class="grid grid-cols-6 grid-row-2 gap-5 px-5 min-[576px]:px-10 min-[576px]:gap-10 min-[992px]:grid-cols-12 min-[768px]:py-16">
+      
+      <div class="col-span-6 text-3xl text-center">
+        <h1 class=>How to make an online portfolio</h1> 
+      </div>
+
+    <div class="col-span-6 text-center lg:text-left lg:col-span-12 lg:m-10 ">
+      <p class="lg:mr-[658px] lg:text-center lg:justify-start">If you're a photographer, artist, designer, model, or creative, putting your work online is the best way to reach a larger audience. And you can do it in 4 easy steps.</p>
+
+      <div class="py-1 flex items-center justify-center lg:justify-start lg:ml-28">
+        <hr class="w-72 md:w-96 h-0.5 my-8 bg-gray-200 border-0 dark:bg-gray-300">
+      </div>
+    </div>
+    
+    <ul class="space-y-4 list-disc list-outside col-span-6 text-sm">
+      <ol>
+        <li
+          class="text-sm ml-7 mb-5 min-[768px]:text-base before:content-['1.'] before:absolute before:ml-[-28px] before:font-medium before:text-bright-blue"
+        >
+          Sign up or log in with social media. You’ll also be able to
+          choose a domain (website address) for your portfolio site.
+        </li>
+        <li
+          class="text-sm ml-7 mb-5 min-[768px]:text-base before:content-['2.'] before:absolute before:ml-[-28px] before:font-medium before:text-bright-blue"
+        >
+          Tell us a little about your work. Answer a few questions and
+          our portfolio maker creates the website for you.
+        </li>
+        <li
+          class="text-sm ml-7 mb-5 min-[768px]:text-base before:content-['3.'] before:absolute before:ml-[-28px] before:font-medium before:text-bright-blue"
+        >
+          Add your images. Connect your social media accounts to pull in
+          your images from around the web, or easily upload them.
+        </li>
+        <li
+          class="text-sm ml-7 mb-5 min-[768px]:text-base before:content-['4.'] before:absolute before:ml-[-28px] before:font-medium before:text-bright-blue"
+        >
+          Publish your site—and you’re online! Then follow our quick and
+          easy tips to optimize your portfolio site even more!
+        </li>
+      </ol>
+
+      <div class="py-1 flex items-center justify-center">
+        <hr class="w-72 md:w-96 h-0.5 my-8 bg-gray-200 border-0 dark:bg-gray-300">
+      </div>
+     
+
+    <div class="flex items-center justify-center">
+        <button class="hover:opacity-50 cursor-default bg-blue-700 text-white flex p-2 px-28 text-sm rounded ">Start Now</button>
+      </div>
+
+    </div>
+
+   
+
+
+  </div>
+  </div>
+</main>
+
+
+<!----------FOURTH PAGE--------->
+<main>
+  <h2 class="lg:text-center lg:text-5xl text-4xl lg:py-16 py-4 m-4">What kind of portfolio website will you create?</h2>
+  <div class="py-10">
+    <div class="grid grid-cols-6 grid-row-2 gap-5 px-5 min-[576px]:px-10 min-[576px]:gap-10 min-[992px]:grid-cols-12 min-[768px]:py-16">
+  
+      <div class="col-span-6 text-3xl"> 
+      </div>
+      <div class="flex-row-reverse"></div>
+
+
+     <div class="col-span-6">
+      <div class="p-5">
+        <div>
+        <!--img-container---->
+        <div class="py-5"><img src="images/6th.png"></div>
+      </div>
+  
+          <!--text-container---->
+        <div class="">
+          <h3 class="text-lg font-medium">Graphic designer portfolio</h3> <br>
+          <p class="">Your graphic design online portfolio shows off your skills and work examples in one place, from different design programs to different mediums.</p> <br>
+          <div class="flex justify-end items-center md:justify-start">
+            <p class="flex items-center">
+                Start Now
+                <svg class="ml-36 md:ml-1 cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.352 11.194l3.8-3.291H0V6.09h10.151l-3.805-3.29 1.417-1.245L14 7.003l-6.231 5.441-1.417-1.25z" fill="currentColor"></path>
+                </svg>
+            </p>
+        </div>
+          <hr class="w-64 h-0.5 my-1 bg-black border-0 md:w-20">
+
+        </div>
+      </div>
+     </div>
+
+     <div class="col-span-6">
+      <div class="py-10 p-5">
+        <div>
+        <!--img-container---->
+        <div class="py-5"><img src="images/7TH.png"></div>
+      </div>
+  
+          <!--text-container---->
+        <div class="">
+          <h3 class="text-lg font-medium">Photographer portfolio</h3> <br>
+          <p class="">Building a photography portfolio means focusing on the work, not the website. Jimdo’s modern designs keep your images front and center. You can accept bookings, too!</p> <br>
+          <div class="flex justify-end items-center md:justify-start">
+            <p class="flex items-center">
+                Start Now
+                <svg class="ml-36 md:ml-1 cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.352 11.194l3.8-3.291H0V6.09h10.151l-3.805-3.29 1.417-1.245L14 7.003l-6.231 5.441-1.417-1.25z" fill="currentColor"></path>
+                </svg>
+            </p>
+        </div>
+          <hr class="w-64 h-0.5 my-1 bg-black border-0 md:w-20">
+        </div>
+      </div>
+     </div>
+
+     <div class="col-span-6">
+      <div class="py-10 p-5">
+        <div>
+        <!--img-container---->
+        <div class="py-5"><img src="images/8th.png"></div>
+      </div>
+  
+          <!--text-container---->
+        <div class="">
+          <h3 class="text-lg font-medium">Artist portfolio</h3> <br>
+          <p class="">Want to put your art online and sell it, too? Upload high-resolution images, post new work, and build your client base with a portfolio and online store all in one.</p> <br>
+          <div class="flex justify-end items-center md:justify-start">
+            <p class="flex items-center">
+                Start Now
+                <svg class="ml-36 md:ml-1 cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.352 11.194l3.8-3.291H0V6.09h10.151l-3.805-3.29 1.417-1.245L14 7.003l-6.231 5.441-1.417-1.25z" fill="currentColor"></path>
+                </svg>
+            </p>
+        </div>
+          <hr class="w-64 h-0.5 my-1 bg-black border-0 md:w-20">
+        </div>
+      </div>
+     </div>
+
+     <div class="col-span-6">
+      <div class="py-10 p-5">
+        <div>
+        <!--img-container---->
+        <div class="py-5"><img src="images/9th.png"></div>
+      </div>
+  
+          <!--text-container---->
+        <div class="">
+          <h3 class="text-lg font-medium">Model portfolio</h3> <br>
+          <p class="">You’re versatile and stylish, and your portfolio can be too. A website is a platform that you control, and it’s easy to use images right from your social media accounts.</p> <br>
+          <div class="flex justify-end items-center md:justify-start">
+            <p class="flex items-center">
+                Start Now
+                <svg class="ml-36 md:ml-1 cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.352 11.194l3.8-3.291H0V6.09h10.151l-3.805-3.29 1.417-1.245L14 7.003l-6.231 5.441-1.417-1.25z" fill="currentColor"></path>
+                </svg>
+            </p>
+        </div>
+        
+          <hr class="w-64 h-0.5 my-1 bg-black border-0 md:w-20">
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</main>
+
+<!-------KARUSEEEEEEEEEEEEEEEEEL---------->
+
+<main>
+  <div class>
+    <div class="flex flex-col items-center justify-center min-h-screen px-5 min-[576px]:px-10 min-[576px]:gap-10 min-[992px]">
+      <div class="text-center max-w-4xl">
+        <h1 class="text-3xl">Get portfolio design inspiration with these examples</h1> 
+      </div>
+        
+      <div class="text-center mt-4 max-w-4xl">
+        <p>Artists ♡ Jimdo! Spark your creativity with these website portfolio examples built with Jimdo.</p>
+      </div>
+    </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Carousel Example</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.7/dist/tailwind.min.css" rel="stylesheet">
+      <style>
+        .carousel-item {
+          display: none;
+        }
+        .carousel-item.active {
+          display: block;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="indicators-carousel" class="relative w-full">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 -->
+          <div class="carousel-item active">
+            <img src="images/1ST.PNG" class="w-full" alt="Slide 1">
+          </div>
+          <!-- Item 2 -->
+          <div class="carousel-item">
+            <img src="images/6TH.PNG" class="w-full" alt="Slide 2">
+          </div>
+          <!-- Item 3 -->
+          <div class="carousel-item">
+            <img src="images/8th.png" class="w-full" alt="Slide 3">
+          </div>
+          <!-- Item 4 -->
+          <div class="carousel-item">
+            <img src="images/4th.png" class="w-full" alt="Slide 4">
+          </div>
+          <!-- Item 5 -->
+          <div class="carousel-item">
+            <img src="images/5th.png" class="w-full" alt="Slide 5">
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex space-x-3 bottom-5 left-1/2 transform -translate-x-1/2">
+          <button type="button" class="w-3 h-3 rounded-full bg-gray-500" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full bg-gray-500" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full bg-gray-500" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+          <button type="button" class="w-3 h-3 rounded-full bg-gray-500" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+          <button type="button" class="w-3 h-3 rounded-full bg-gray-500" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" id="prev">
+          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50">
+            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" id="next">
+          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50">
+            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+    
+      <script>
+        const carouselItems = document.querySelectorAll('.carousel-item');
+        const indicators = document.querySelectorAll('[data-carousel-slide-to]');
+        let currentIndex = 0;
+    
+        function showSlide(index) {
+          carouselItems.forEach((item, i) => {
+            item.classList.toggle('active', i === index);
+          });
+          indicators.forEach((indicator, i) => {
+            indicator.classList.toggle('bg-gray-800', i === index);
+            indicator.classList.toggle('bg-gray-500', i !== index);
+          });
+        }
+    
+        document.getElementById('next').addEventListener('click', () => {
+          currentIndex = (currentIndex + 1) % carouselItems.length;
+          showSlide(currentIndex);
+        });
+    
+        document.getElementById('prev').addEventListener('click', () => {
+          currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+          showSlide(currentIndex);
+        });
+    
+        indicators.forEach((indicator, index) => {
+          indicator.addEventListener('click', () => {
+            currentIndex = index;
+            showSlide(currentIndex);
+          });
+        });
+    
+        showSlide(currentIndex); // Initialize carousel
+      </script>
+    </body>
+    </html>
+    
+    
+  </div>
+</main>
+
+
+
+
+<!-----------fuckkkkkkk-------------------->
+
+<main>
+  <div class="py-10">
+    <div class="grid grid-cols-6 grid-row-2 gap-5 px-5 min-[576px]:px-10 min-[576px]:gap-10 min-[992px]:grid-cols-12 min-[768px]:py-16">
+  
+      <div class="col-span-6 py-5  text-center text-3xl">
+        <h1>Online portfolio FAQ</h1> 
+      </div>
+
+
+<!---------------------->
+
+  <div class="col-span-6">
+    <div class="p-">
+    <div class= >
+        <h3 id="dropdownButton" class="font-medium cursor-pointer flex">
+          What are the benefits of having an online portfolio?
+            
+            <svg class="md:ml-64" id="dropdownIcon" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+              </svg>
+        </h3>
+             <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200 md:w-full">
+
+      <!-- Dropdown menu -->
+   <div id="dropdownMenu" class=" hidden bg-white">
+    <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton">
+      <h3 class="text-sm py-6">Creating an online portfolio is one of the best ways to show off your best work, all in one place. Even if you’re already using different social media accounts, putting your portfolio online gives you an online hub for potential clients, customers, agencies, and recruiters to see what you can do. It’s all on a platform you control, no matter how social media trends change. Plus, you can customize your design exactly how you want it.</h3>
+    </div>
+</div>
+ 
+
+<!-----------1----------->
+
+<h3 id="dropdownButton1" class="font-medium cursor-pointer flex">
+  How do I make a good portfolio website?
+  
+  <svg class="md:ml-[338px]" id="dropdownIcon1" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+    </svg>
+</h3>
+   <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200 md:w-full">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu1" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton1">
+<h3 class="text-sm py-6">Fortunately with Jimdo, most of the portfolio creation is already done for you! The best way to create a good online portfolio is to start with a custom domain. That shows the world that you take your project seriously and professionally. Once you put your portfolio online, make sure you use high-quality images, and choose a high-impact image for the header of your homepage to grab people’s attention. In addition to design, be sure to take a few minutes to optimize your site for search engines (Jimdo will walk you through how to do that). That way, your portfolio will start showing up in search engines for the right audience, and your traffic will grow.</h3>
+</div>
+</div>
+
+<!----------2------------>
+
+<h3 id="dropdownButton2" class="font-medium cursor-pointer flex">
+  What should I put in my online portfolio?
+
+  
+  <svg class="md:ml-[342px]" id="dropdownIcon2" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+    </svg>
+</h3>
+   <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200 md:w-full">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu2" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton2">
+<h3 class="text-sm py-6">A good portfolio website doesn’t have to be complicated. It’s a good idea to include a short bio and headshot on your About page, as well as any relevant skills or experience. Then, you can have some fun putting together the visuals on your site, either in a slide show or just by placing the images on your web pages. When you do this, try to choose just your best work. Don’t post everything you’ve ever done—be picky and keep in mind that many online visitors have short attention spans and don’t want to browse through years of your work. You can also easily add a contact form so visitors know how to get in touch with you.
+
+
+</h3>
+</div>
+</div>
+  
+<!------------3---------->
+
+<h3 id="dropdownButton3" class="font-medium cursor-pointer flex">
+  Why is an online portfolio important for a designer?
+  
+  <svg class="md:ml-64" id="dropdownIcon3" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+    </svg>
+</h3>
+   <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200 md:w-full">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu3" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton3">
+<h3 class="text-sm py-6">When you’re a designer, visuals are a huge part of the story. An online portfolio helps you go beyond a paper resume and portfolio and really start attracting the attention of hiring managers and potential customers. By putting your designer portfolio online, you can show off all sorts of work beyond print—including video, multimedia, and more. It’s also a good way to let your personality shine through and share your photography, modeling shots, or graphic design work in a more personal way.</h3>
+</div>
+</div>
+
+<!-----------4----------->
+
+<h3 id="dropdownButton4" class="font-medium cursor-pointer flex">
+  How do I choose the right design for my portfolio website?
+  
+  <svg class="md:ml-52" id="dropdownIcon4" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path fill="currentColor" d="M11 9V3c0-.555-.448-1-1-1-.556 0-1 .448-1 1v6H3c-.555 0-1 .448-1 1 0 .556.448 1 1 1h6v6c0 .555.448 1 1 1 .556 0 1-.448 1-1v-6h6c.555 0 1-.448 1-1 0-.556-.448-1-1-1h-6z"></path>
+    </svg>
+</h3>
+   <hr class="w-72 h-px my-2 bg-gray-200 border-0 dark:bg-gray-200 md:w-full">
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu4" class=" hidden bg-white">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton4">
+<h3 class="text-sm py-6">The best portfolio website designs and templates are clean, modern, and show off your work without distractions. When you sign up for Jimdo, you’ll be able to pick a style that fits you, and then the design of the website is taken care of! Once you create your online portfolio, you can tweak it and customize it as you like, but all the heavy lifting is done for you. So you can spend more time on your actual work, and less time laboring over your website.</h3>
+</div>
+</div>
+
+<!-----SCRIPTS NG DROPDOWNNNNNN----->
+<script>
+const dropdownButton = document.getElementById('dropdownButton');
+const dropdownMenu = document.getElementById('dropdownMenu');
+const dropdownIcon = document.getElementById('dropdownIcon');
+
+dropdownButton.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('hidden');
+    dropdownIcon.classList.toggle('rotate-45');
+});
+
+window.addEventListener('click', (e) => {
+    if (dropdownButton.contains(e.target)) {
+    }
+});
+
+/*-----------1----------*/
+
+const dropdownButton1 = document.getElementById('dropdownButton1');
+const dropdownMenu1 = document.getElementById('dropdownMenu1');
+const dropdownIcon1 = document.getElementById('dropdownIcon1');
+
+dropdownButton1.addEventListener('click', () => {
+    dropdownMenu1.classList.toggle('hidden');
+    dropdownIcon1.classList.toggle('rotate-45');
+});
+
+window.addEventListener('click', (e) => {
+    if (!dropdownButton1.contains(e.target)) {
+    }
+});
+
+/*----------2-----------*/
+
+const dropdownButton2 = document.getElementById('dropdownButton2');
+const dropdownMenu2 = document.getElementById('dropdownMenu2');
+const dropdownIcon2 = document.getElementById('dropdownIcon2');
+
+dropdownButton2.addEventListener('click', () => {
+    dropdownMenu2.classList.toggle('hidden');
+    dropdownIcon2.classList.toggle('rotate-45');
+});
+
+window.addEventListener('click', (e) => {
+    if (!dropdownButton2.contains(e.target)) {
+    }
+});
+
+/*-----------3----------*/
+
+const dropdownButton3 = document.getElementById('dropdownButton3');
+const dropdownMenu3 = document.getElementById('dropdownMenu3');
+const dropdownIcon3 = document.getElementById('dropdownIcon3');
+
+dropdownButton3.addEventListener('click', () => {
+    dropdownMenu3.classList.toggle('hidden');
+    dropdownIcon3.classList.toggle('rotate-45');
+});
+
+window.addEventListener('click', (e) => {
+    if (!dropdownButton3.contains(e.target)) {
+    }
+});
+
+/*-----------4----------*/
+
+const dropdownButton4 = document.getElementById('dropdownButton4');
+const dropdownMenu4 = document.getElementById('dropdownMenu4');
+const dropdownIcon4 = document.getElementById('dropdownIcon4');
+
+dropdownButton4.addEventListener('click', () => {
+    dropdownMenu4.classList.toggle('hidden');
+    dropdownIcon4.classList.toggle('rotate-45');
+});
+
+window.addEventListener('click', (e) => {
+    if (!dropdownButton4.contains(e.target)) {
+    }
+});
+</script>
+
+
+
+
+
+<!--------SHOW OFF EMEEEEEEEEEEEE-------->
+
+<main>
+  <div class="py-10">
+    <div class="grid grid-cols-6 grid-row-2 gap-5 px-5 min-[576px]:px-10 min-[576px]:gap-10 min-[992px]:grid-cols-12 min-[768px]:py-16">
+  
+      <div class="col-span-6 text-center text-3xl">
+        <h1>Show off your hard work</h1> 
+      </div>
+
+      <div class="col-span-6 text-center">
+        <P>A portfolio creator for every profession</P>
+      </div>
+
+<div class="col-span-6 py-7">
+  <div class="col-span-6 py-3 text-center">
+    <P class="font-medium text-lg">Freelancer</P>
+  </div>
+
+  <div class="col-span-6 text-center">
+    <P class="text-sm">Every freelancer needs a website to attract new customers, find work, and show off your skills. Build your own portfolio, with no coding required!</P>
+  </div>
+
+  <div class="py-3">
+    <h1 class="md:items-center md:justify-center font-normal text-lg flex items-center cursor-pointer">
+      Freelance website how-to
+      <svg class="ml-2 cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.352 11.194l3.8-3.291H0V6.09h10.151l-3.805-3.29 1.417-1.245L14 7.003l-6.231 5.441-1.417-1.25z" fill="currentColor"></path>
+      </svg>
+    </h1>
+    <div class="flex items-center justify-center">
+      <hr class="w-72 md:w-72 h-0.5 border-0 bg-black">
+    </div>
+  </div>
+</div>
+      
+<div class="col-span-6 py-7">
+  <div class="col-span-6 py-3 text-center">
+    <P class="font-medium text-lg">Photography</P>
+  </div>
+
+  <div class="col-span-6 text-center">
+    <P class="text-sm">Photographers love Jimdo for its beautiful and easy portfolio websites. See how you can get your photos online quickly and start taking bookings.</P>
+  </div>
+
+  <div class="py-3">
+    <h1 class="md:items-center md:justify-center font-normal flex items-center cursor-pointer">
+      Photography website how-to
+      <svg class="ml-2 cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.352 11.194l3.8-3.291H0V6.09h10.151l-3.805-3.29 1.417-1.245L14 7.003l-6.231 5.441-1.417-1.25z" fill="currentColor"></path>
+      </svg>
+    </h1>
+    <div class="flex items-center justify-center">
+      <hr class="w-72 md:w-72 h-0.5 border-0 bg-black">
+    </div>
+  </div>
+</div>
+
+<div class="col-span-6 py-7">
+  <div class="col-span-6 py-3 text-center">
+    <P class="font-medium text-lg">Design</P>
+  </div>
+
+  <div class="col-span-6 text-center">
+    <P class="text-sm">Create an art portfolio that matches your style. Our built-in tools will help you improve your search engine ranking and even sell your artwork online.</P>
+  </div>
+
+  <div class="py-3">
+    <h1 class="md:items-center md:justify-center font-normal text-lg flex items-center cursor-pointer">
+      How to design a website
+      <svg class="ml-2 cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.352 11.194l3.8-3.291H0V6.09h10.151l-3.805-3.29 1.417-1.245L14 7.003l-6.231 5.441-1.417-1.25z" fill="currentColor"></path>
+      </svg>
+    </h1>
+    <div class="flex items-center justify-center">
+      <hr class="w-72 md:w-72 h-0.5 border-0 bg-black">
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</main>
+
+
+<!---------- ewan ung tatlo sa baba awit e-------------->
+
+  <div class>
+    <div class="grid grid-cols-6 grid-row-2 gap-5 px-5 min-[576px]:px-10 min-[576px]:gap-10 min-[992px]:grid-cols-12 min-[768px]:py-16">
+
+  <div class="col-span-6">
+    <div>
+    <div class="">
+        <h3 id="dropdownButton5" class="py-4 font-medium cursor-pointer flex justify-between">
+          Products
+            
+          <svg class="ml-2 cursor-pointer" id="dropdownIcon5" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+        </h3>
+            
+  
+      <!-- Dropdown menu -->
+   <div id="dropdownMenu5" class=" px-5 hidden bg-white border-2 border-blue-500">
+    <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton5">
+      <h3 class="text-sm py-2">Website</h3>
+      <h3 class="text-sm py-2">Online Store</h3>
+      <h3 class="text-sm py-2">Domain</h3>
+      <h3 class="text-sm py-2">Logo</h3>
+    </div>
+  </div>
+  
+
+  <!--------------6----------------->
+  <div class="">
+    <h3 id="dropdownButton6" class="py-4 font-medium cursor-pointer flex justify-between">
+      About Us
+        
+      <svg class="ml-2 cursor-pointer" id="dropdownIcon6" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+    </h3>
+        
+
+  <!-- Dropdown menu -->
+<div id="dropdownMenu6" class=" px-5 hidden bg-white border-2 border-blue-500">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton6">
+  <h3 class="text-sm py-2">About Jimdo</h3>
+  <h3 class="text-sm py-2">Careers</h3>
+  <h3 class="text-sm py-2">Affiliates</h3>
+</div>
+</div>
+
+<!--------------7----------------->
+
+<div class="">
+  <h3 id="dropdownButton7" class="py-4 font-medium cursor-pointer flex justify-between">
+    Service
+      
+    <svg class="ml-2 cursor-pointer" id="dropdownIcon7" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+  </h3>
+      
+
+<!-- Dropdown menu -->
+<div id="dropdownMenu7" class=" px-5 hidden bg-white border-2 border-blue-500">
+<div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton7">
+<h3 class="text-sm py-2">Jimdo Blog</h3>
+<h3 class="text-sm py-2">Inspiration</h3>
+<h3 class="text-sm py-2">Help Center</h3>
+<h3 class="text-sm py-2">Contact Support</h3>
+</div>
+</div>
+
+
+
+<!---------SCRIPTS NUNG TATLO KRAY Z---------------->
+
+
+  <script>
+    const dropdownButton5 = document.getElementById('dropdownButton5');
+    const dropdownMenu5 = document.getElementById('dropdownMenu5');
+    const dropdownIcon5 = document.getElementById('dropdownIcon5');
+    
+    dropdownButton5.addEventListener('click', () => {
+        dropdownMenu5.classList.toggle('hidden');
+        dropdownIcon5.classList.toggle('rotate-180');
+    });
+    
+    window.addEventListener('click', (e) => {
+        if (dropdownButton5.contains(e.target)) {
+        }
+    });
+  
+    /*------------6-------------*/
+  
+    const dropdownButton6 = document.getElementById('dropdownButton6');
+    const dropdownMenu6 = document.getElementById('dropdownMenu6');
+    const dropdownIcon6 = document.getElementById('dropdownIcon6');
+    
+    dropdownButton6.addEventListener('click', () => {
+        dropdownMenu6.classList.toggle('hidden');
+        dropdownIcon6.classList.toggle('rotate-180');
+    });
+    
+    window.addEventListener('click', (e) => {
+        if (dropdownButton6.contains(e.target)) {
+        }
+    });
+    
+    /*------------7-------------*/
+  
+    const dropdownButton7 = document.getElementById('dropdownButton7');
+    const dropdownMenu7 = document.getElementById('dropdownMenu7');
+    const dropdownIcon7 = document.getElementById('dropdownIcon7');
+    
+    dropdownButton7.addEventListener('click', () => {
+        dropdownMenu7.classList.toggle('hidden');
+        dropdownIcon7.classList.toggle('rotate-180');
+    });
+    
+    window.addEventListener('click', (e) => {
+        if (dropdownButton7.contains(e.target)) {
+        }
+    });
+
+  </Script>
+    </div>
+  </div>
+    </div>
+
+
+
+<!-----FOOWTERRRRRRRRRRRRRRRRRRRRRR---------->
+
+<footer class="py-20">
+  <div class="flex flex-col items-center gap-9">
+    <div class="">
+      <a class="index-module--logo--c2121" data-tracking="footer_brand" aria-label="Jimdo" href="/"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 37" width="118" height="48"><path fill="#010334" d="M82.37 9.905a8.58 8.58 0 00-8.579 8.58 8.58 8.58 0 008.58 8.58 8.58 8.58 0 008.58-8.58 8.58 8.58 0 00-8.58-8.58zm0 13.393a4.813 4.813 0 110-9.625 4.813 4.813 0 010 9.625zM35.137 10.23h3.608l5.469 10.267 5.444-10.267h3.633v16.513h-4.057V17.92l-4.618 8.823h-.803l-4.618-8.8v8.8h-4.057V10.23h-.001zm-12.252.057h-4.072v9.86a2.847 2.847 0 01-5.693 0H9.048a6.919 6.919 0 1013.837 0v-9.86zm40.54-.057h-6.1v16.513h6.1a8.256 8.256 0 100-16.513zm-.495 13.068h-1.546v-9.625h1.546a4.812 4.812 0 110 9.625zM31.04 10.287h-4.086v16.4h4.086v-16.4z"></path><path fill="#010334" d="M97.537 2.463V34.51H2.463V2.463h95.074zM100 0H0v36.973h100V0z"></path></svg></a>
+    </div>
+
+    <div>
+      <ul class="flex gap-3">
+        <li ><a data-tracking="footer_visit_facebook" href="https://www.facebook.com/Jimdo" aria-label="Visit Jimdo´s Facebook page" rel="noopener noreferrer" target="_blank"><svg width="28" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24 0C10.745 0 0 10.81 0 24.147 0 36.199 8.776 46.189 20.25 48V31.127h-6.094v-6.98h6.094v-5.32c0-6.052 3.583-9.395 9.065-9.395 2.626 0 5.372.472 5.372.472v5.942h-3.026c-2.981 0-3.911 1.862-3.911 3.771v4.53h6.656l-1.064 6.98H27.75V48C39.224 46.189 48 36.199 48 24.147 48 10.81 37.255 0 24 0z" fill="currentColor" fill-rule="evenodd"></path></svg></a></li>
+        <li>
+          <a data-tracking="footer_visit_instagram" href="https://www.instagram.com/jimdo_global/" aria-label="Visit Jimdo´s Instagram page" rel="noopener noreferrer" target="_blank"><svg width="28" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="instagram_svg__a" d="M0 .015h47.8V47.81H0z"></path></defs><g fill="none" fill-rule="evenodd"><mask id="instagram_svg__b" fill="#fff"><use xlink:href="#instagram_svg__a"></use></mask><path d="M23.955 2.372c-5.862 0-6.597.025-8.899.13-2.297.104-3.866.47-5.239 1.003a10.568 10.568 0 00-3.823 2.49c-1.2 1.2-1.938 2.403-2.49 3.822-.533 1.373-.898 2.942-1.002 5.24-.105 2.301-.13 3.036-.13 8.898 0 5.861.025 6.596.13 8.898.104 2.298.47 3.867 1.003 5.24a10.573 10.573 0 002.49 3.822c1.2 1.2 2.403 1.938 3.822 2.49 1.373.533 2.942.898 5.24 1.003 2.301.105 3.036.13 8.898.13 5.861 0 6.596-.025 8.898-.13 2.298-.105 3.867-.47 5.24-1.003 1.419-.552 2.622-1.29 3.822-2.49 1.2-1.2 1.938-2.403 2.49-3.822.533-1.373.898-2.942 1.003-5.24.105-2.302.13-3.037.13-8.898 0-5.862-.025-6.597-.13-8.899-.105-2.297-.47-3.866-1.003-5.239-.552-1.42-1.29-2.623-2.49-3.823-1.2-1.2-2.403-1.938-3.822-2.49-1.373-.533-2.942-.898-5.24-1.002-2.302-.105-3.037-.13-8.898-.13zm0 3.889c5.763 0 6.445.022 8.721.125 2.105.096 3.247.448 4.008.744 1.007.391 1.726.859 2.482 1.614.755.755 1.223 1.474 1.614 2.482.296.76.647 1.903.743 4.007.104 2.276.126 2.959.126 8.722s-.022 6.445-.126 8.721c-.096 2.105-.447 3.247-.743 4.008-.391 1.007-.86 1.726-1.614 2.482-.756.755-1.475 1.223-2.482 1.614-.76.296-1.903.647-4.008.743-2.275.104-2.958.126-8.721.126-5.764 0-6.446-.022-8.722-.126-2.104-.096-3.247-.447-4.007-.743-1.008-.391-1.727-.86-2.482-1.614-.755-.756-1.223-1.475-1.614-2.482-.296-.76-.648-1.903-.744-4.008-.103-2.276-.125-2.958-.125-8.721s.022-6.446.125-8.722c.096-2.104.448-3.247.744-4.007.391-1.008.859-1.727 1.614-2.482.755-.755 1.474-1.223 2.482-1.614.76-.296 1.903-.648 4.007-.744 2.276-.103 2.959-.125 8.722-.125z" fill="currentColor" mask="url(#instagram_svg__b)"></path><path d="M23.9 31.882a7.967 7.967 0 110-15.934 7.967 7.967 0 010 15.934zm-12.273-7.967c0 6.778 5.495 12.273 12.273 12.273s12.273-5.495 12.273-12.273S30.678 11.642 23.9 11.642s-12.273 5.495-12.273 12.273zm27.899-12.758a2.868 2.868 0 11-5.736 0 2.868 2.868 0 015.736 0" fill="currentColor"></path></g></svg></a>
+        </li>
+        <li>
+          <a data-tracking="footer_visit_pinterest" href="https://www.pinterest.de/JimdoEN/" aria-label="Visit Jimdo´s Pinterest page" rel="noopener noreferrer" target="_blank"><svg width="28" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M23.99 0C10.722 0 0 10.741 0 23.99c0 10.17 6.318 18.857 15.243 22.351-.217-1.895-.395-4.817.08-6.89.433-1.876 2.803-11.927 2.803-11.927s-.71-1.44-.71-3.554c0-3.337 1.934-5.824 4.343-5.824 2.053 0 3.04 1.54 3.04 3.376 0 2.053-1.302 5.134-1.994 7.997-.572 2.389 1.205 4.344 3.555 4.344 4.264 0 7.542-4.502 7.542-10.979 0-5.745-4.127-9.754-10.03-9.754-6.832 0-10.84 5.114-10.84 10.406 0 2.053.79 4.265 1.777 5.47a.714.714 0 01.158.69c-.178.75-.593 2.39-.672 2.725-.098.435-.355.533-.81.316-2.96-1.421-4.817-5.805-4.817-9.32 0-7.562 5.49-14.512 15.855-14.512 8.313 0 14.79 5.923 14.79 13.86 0 8.274-5.213 14.928-12.44 14.928-2.429 0-4.72-1.264-5.49-2.764l-1.5 5.706c-.533 2.093-1.994 4.7-2.981 6.299 2.25.69 4.62 1.066 7.108 1.066C37.259 48 48 37.259 48 24.01 47.98 10.74 37.239 0 23.99 0z" fill="currentColor" fill-rule="evenodd"></path></svg></a>
+        </li>
+        <li>
+          <li class="index-module--list--0a9d7"><a data-tracking="footer_visit_twitter" href="https://twitter.com/jimdo" aria-label="Visit Jimdo´s Twitter page" rel="noopener noreferrer" target="_blank"><svg width="28" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M23.76 0c13.122 0 23.76 10.638 23.76 23.76 0 13.122-10.638 23.76-23.76 23.76C10.638 47.52 0 36.882 0 23.76 0 10.638 10.638 0 23.76 0zm6.213 13.603a5.73 5.73 0 00-5.726 5.726c0 .451.048.89.155 1.307-4.764-.238-8.982-2.519-11.81-5.988a5.747 5.747 0 00-.771 2.875 5.703 5.703 0 002.554 4.764 5.627 5.627 0 01-2.59-.713v.071a5.735 5.735 0 004.598 5.62 5.71 5.71 0 01-1.51.202 5.47 5.47 0 01-1.08-.107 5.72 5.72 0 005.346 3.98 11.515 11.515 0 01-8.483 2.364 15.96 15.96 0 008.756 2.59c10.537 0 16.3-8.732 16.3-16.3 0-.25 0-.499-.013-.737a11.736 11.736 0 002.863-2.97c-1.021.452-2.126.76-3.29.903a5.725 5.725 0 002.518-3.172 11.6 11.6 0 01-3.635 1.39 5.7 5.7 0 00-4.182-1.805z" fill="currentColor"></path></svg></a></li>
+        </li>
+        <li><li class="index-module--list--0a9d7"><a data-tracking="footer_visit_youtube" href="https://www.youtube.com/user/jimdo" aria-label="Visit Jimdo´s YouTube page" rel="noopener noreferrer" target="_blank"><svg width="28" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="youtube_svg__a" d="M0 0h47.91v33.537H0z"></path></defs><g transform="translate(0 7)" fill="none" fill-rule="evenodd"><mask id="youtube_svg__b" fill="#fff"><use xlink:href="#youtube_svg__a"></use></mask><path d="M19.164 23.955V9.582l12.447 7.186-12.447 7.187zM46.909 5.237A6.001 6.001 0 0042.673 1c-3.736-1-18.718-1-18.718-1S8.973 0 5.237 1A6 6 0 001 5.237C0 8.973 0 16.768 0 16.768S0 24.564 1.001 28.3a6 6 0 004.236 4.236c3.736 1 18.718 1 18.718 1s14.982 0 18.718-1a6.001 6.001 0 004.236-4.236c1-3.736 1-11.532 1-11.532s0-7.795-1-11.531z" fill="currentColor" mask="url(#youtube_svg__b)"></path></g></svg></a></li></li>
+      </ul>
+    </div>
+
+
+    <!-------languages---------->
+  <div>
+    <ul class="flex py-5 gap-5">
+      <div class="">
+        <img class="w-10" src="images/lol.png">
+      </div>
+     
+      <div class="">
+        <h3 id="dropdownButton8" class="font-medium cursor-pointer flex justify-between">
+          English
+            
+          <svg class="ml-2 cursor-pointer" id="dropdownIcon8" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+        </h3>
+            
+    
+      <!-- Dropdown menu -->
+    <div id="dropdownMenu8" class="px-5 hidden bg-white border-2 border-black">
+    <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton8">
+      <h3 class="text-sm py-2"> English</h3>
+      <h3 class="text-sm py-2"> Deutsch</h3>
+      <h3 class="text-sm py-2">Español</h3>
+      <h3 class="text-sm py-2">Français</h3>
+      <h3 class="text-sm py-2">Italiano</h3>
+      <h3 class="text-sm py-2">日本語</h3>
+      <h3 class="text-sm py-2">Nederlands</h3>
+    </div>
+    </div>
+    </ul>
+  </div>
+
+  <!----------SCRIPT NG LANGUAGES--------->
+  <script>
+  const dropdownButton8 = document.getElementById('dropdownButton8');
+    const dropdownMenu8 = document.getElementById('dropdownMenu8');
+    const dropdownIcon8 = document.getElementById('dropdownIcon8');
+    
+    dropdownButton8.addEventListener('click', () => {
+        dropdownMenu8.classList.toggle('hidden');
+        dropdownIcon8.classList.toggle('rotate-180');
+    });
+    
+    window.addEventListener('click', (e) => {
+        if (dropdownButton8.contains(e.target)) {
+        }
+    });
+</script>
+<!----------------------->
+
+    <div class="px-4 max-w-screen-2xl mx-auto">
+      <div class="py-8 text-center text-sm">
+        <p class="px-5 text-blue-900 text-sm">Legal notice</p> <br>
+        <p class="px-5 text-blue-900 text-sm ">Terms of Service</p> <br>
+        <p class="px-5 text-blue-900 text-sm">Privacy Policy</p> <br>
+        <p class="px-5">Cookie Settings</p>
+      </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+  
