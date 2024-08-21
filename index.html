@@ -417,20 +417,110 @@
 
       <!-- Mobile Menu (Hidden by default) -->
       <div id="mobileMenu" class="lg:hidden fixed inset-0 bg-white z-50 transform -translate-x-full transition-transform">
-        <div class="flex justify-end p-4">
-          <button id="closeButton" class="text-gray-600">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
-          </button>
+        <div class="px-4 py-6 flex items-center justify-between">
+          <div class="logo">
+            <img class="w-24" src="images/Jimdo_Logo_2021.svg.png" alt="Logo">
+          </div>
+          <div class="p-4">
+            <button id="closeButton" class="text-gray-600">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
         </div>
-        <div class="flex flex-col mt-10">
-          <a href="#" class="py-2 text-blue hover:bg-gray-200 w-full text-center">Website</a>
-          <a href="#" class="py-2 text-blue hover:bg-gray-200 w-full text-center">Online Store</a>
-          <a href="#" class="py-2 text-blue hover:bg-gray-200 w-full text-center">Business-Tools</a>
-          <a href="#" class="py-2 text-blue hover:bg-gray-200 w-full text-center">Knowledge Guide</a>
-          <a href="#" class="py-2 text-blue hover:bg-gray-200 w-full text-center">Help</a>
-          <a href="#" class="py-2 text-blue hover:bg-gray-200 w-full text-center">Log in</a>
+        
+        <div class="flex flex-col mt-5 p-7">
+
+            <div class="py-2">
+              <h3 id="dropdownButton" class="text-xl font-semibold text-blue-900 hover:bg-gray-200 w-full flex justify-between ">
+                Website
+                
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="NavButton-module--arrowIcon--e8965"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+                  </svg>
+              </h3>
+              
+              <!-- Dropdown menu -->
+              <div id="dropdownMenu" class=" hidden bg-white">
+              <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton">
+              <h3 class="text-sm py-6">Fortunately with Jimdo, most of the portfolio creation is already done for you! The best way to create a good online portfolio is to start with a custom domain. That shows the world that you take your project seriously and professionally. Once you put your portfolio online, make sure you use high-quality images, and choose a high-impact image for the header of your homepage to grab people’s attention. In addition to design, be sure to take a few minutes to optimize your site for search engines (Jimdo will walk you through how to do that). That way, your portfolio will start showing up in search engines for the right audience, and your traffic will grow.</h3>
+              </div>
+              </div>
+              </div>
+
+              <div class="py-4">
+                <h3 id="dropdownButton1" class="text-xl font-semibold text-blue-900 hover:bg-gray-200 w-full flex justify-between ">
+                  Online Store
+                  
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="NavButton-module--arrowIcon--e8965"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+                    </svg>
+                </h3>
+                
+                <!-- Dropdown menu -->
+                <div id="dropdownMenu1" class=" hidden bg-white">
+                <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton1">
+                <h3 class="text-sm py-6">Fortunately with Jimdo, most of the portfolio creation is already done for you! The best way to create a good online portfolio is to start with a custom domain. That shows the world that you take your project seriously and professionally. Once you put your portfolio online, make sure you use high-quality images, and choose a high-impact image for the header of your homepage to grab people’s attention. In addition to design, be sure to take a few minutes to optimize your site for search engines (Jimdo will walk you through how to do that). That way, your portfolio will start showing up in search engines for the right audience, and your traffic will grow.</h3>
+                </div>
+                </div>
+                </div>
+
+                <div class="py-4">
+                  <h3 id="dropdownButton2" class="text-xl font-semibold text-blue-900 hover:bg-gray-200 w-full flex justify-between ">
+                    Business-Tools
+                    
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="NavButton-module--arrowIcon--e8965"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+                      </svg>
+                  </h3>
+                  
+                  <!-- Dropdown menu -->
+                  <div id="dropdownMenu2" class=" hidden bg-white">
+                  <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton2">
+                  <h3 class="text-sm py-6">Fortunately with Jimdo, most of the portfolio creation is already done for you! The best way to create a good online portfolio is to start with a custom domain. That shows the world that you take your project seriously and professionally. Once you put your portfolio online, make sure you use high-quality images, and choose a high-impact image for the header of your homepage to grab people’s attention. In addition to design, be sure to take a few minutes to optimize your site for search engines (Jimdo will walk you through how to do that). That way, your portfolio will start showing up in search engines for the right audience, and your traffic will grow.</h3>
+                  </div>
+                  </div>
+                  </div>
+
+                  <div class="py-4">
+                    <h3 id="dropdownButton3" class=" mt-8 text-xl font-semibold text-blue-900 hover:bg-gray-200 w-full flex justify-between ">
+                      Knowledge Guide
+                      
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="NavButton-module--arrowIcon--e8965"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+                        </svg>
+                    </h3>
+                    
+                    <!-- Dropdown menu -->
+                    <div id="dropdownMenu3" class=" hidden bg-white">
+                    <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton3">
+                    <h3 class="text-sm py-6">Fortunately with Jimdo, most of the portfolio creation is already done for you! The best way to create a good online portfolio is to start with a custom domain. That shows the world that you take your project seriously and professionally. Once you put your portfolio online, make sure you use high-quality images, and choose a high-impact image for the header of your homepage to grab people’s attention. In addition to design, be sure to take a few minutes to optimize your site for search engines (Jimdo will walk you through how to do that). That way, your portfolio will start showing up in search engines for the right audience, and your traffic will grow.</h3>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="py-4">
+                      <h3 id="dropdownButton4" class="text-xl font-semibold text-blue-900 hover:bg-gray-200 w-full flex justify-between ">
+                        Help
+                        
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="NavButton-module--arrowIcon--e8965"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.712 9.707l-5.004 5.004a.994.994 0 01-.706.292.995.995 0 01-.707-.292L4.293 9.707a.999.999 0 111.414-1.414l4.295 4.298 4.296-4.298a.999.999 0 111.414 1.414z" fill="currentColor"></path></svg>
+                          </svg>
+                      </h3>
+                      
+                      <!-- Dropdown menu -->
+                      <div id="dropdownMenu4" class=" hidden bg-white">
+                      <div class="" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton4">
+                      <h3 class="text-sm py-6">Fortunately with Jimdo, most of the portfolio creation is already done for you! The best way to create a good online portfolio is to start with a custom domain. That shows the world that you take your project seriously and professionally. Once you put your portfolio online, make sure you use high-quality images, and choose a high-impact image for the header of your homepage to grab people’s attention. In addition to design, be sure to take a few minutes to optimize your site for search engines (Jimdo will walk you through how to do that). That way, your portfolio will start showing up in search engines for the right audience, and your traffic will grow.</h3>
+                      </div>
+                      </div>
+                      </div>
+            
+
+          <div class="flex flex-col mt-52 py-3">
+            <button class="hover:opacity-50 cursor-default bg-blue-900 text-white p-2 px-20 text-sm rounded text-center text-sm">Sign Up</button>
+        </div>
+
+        <div class="flex flex-col">
+          <button class="border-solid border-2 border-blue-900 p-2 rounded text-sm">Log In</button>
+        </div>
+
         </div>
       </div>
     </header>
@@ -468,7 +558,7 @@
   
       <div class="lg:col-span-1">
         <h1 class="lg:text-5xl text-4xl">
-        Create an Online Portfolio With Jimdo</h1> 
+        Create an Online Portfolio With Jacqueline</h1> 
         
         <div class="mt-6 space-y-4">
           <div class="flex gap-3 items-center">
